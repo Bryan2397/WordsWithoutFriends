@@ -611,7 +611,7 @@ cleanupGamelistNodes(top);
 char finish[100];
 char headlen[300];
 
-char *msg = "<html><body>Congratulations! You solved it! <a href=\"words\">Another?</a></body></html>";
+char *msg = "<html><body>Congratulations! You solved it! </body></html>";
 
 strcpy(finish, msg);
 int hlength = strlen(finish);
